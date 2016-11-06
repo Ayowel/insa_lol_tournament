@@ -1,0 +1,282 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 12:27:32 janv. 22, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:43:41 oct. 30, 2016.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/* Basic Layout */
+html,body {
+	padding: 0;
+	height: 100%; /* needed for container min-height */
+}
+
+body {
+	background: #000000;
+	font-family: Georgia, serif;
+	font-size: 14px;
+	color: #666;
+	margin: 50px 0;
+}
+
+.views-admin-links {
+	display: none;
+}
+
+#container {
+	position: relative; /* needed for footer positioning*/
+	margin: 0 auto; /* center, not in IE5 */
+	width: 1012px;
+	background: #000000 url("../background/parchment_body.png") top left repeat-y;
+	min-height: 400px;
+}
+
+#header {
+	padding: 10px;
+	background: url("../background/parchment_header.png") top left no-repeat;
+	height: 313px;
+	position: absolute;
+	top: -40px;
+	left: 0;
+	right: 0;
+}
+
+#sidebar {
+	padding: 10px;
+	padding-top: 160px;
+	position: relative;
+	float: right;
+	width: 235px;
+	margin-right: 32px;
+}
+
+#footer {
+	position: absolute;
+	bottom: -50px;
+	left: 0;
+	right: 0;
+	background: url("../background/parchment_footer.png") bottom left no-repeat;
+	height: 313px;
+}
+
+.clear {
+	clear: both;
+}
+
+hr {
+	width: 674px;
+	height: 11px;
+	background: url("../background/hr_bg.png") top left no-repeat;
+	border: none;
+	margin-bottom: 10px;
+}
+
+.half {
+    width: 322px;
+}
+/* End Basic Layout */
+
+/* Header Layout */
+#header h1, h2 {
+	color: #7c4f00;
+	font-size: 15px;
+	font-family: Georgia, serif;
+}
+
+#header h2 {
+	color: #5c3a00;
+}
+
+#issue_number {
+	position: absolute; 
+	top: 146px; 
+	left: 50px;
+	font-variant: small-caps;
+}
+
+#latin_slug {
+ 	position: absolute; 
+ 	top: 144px; 
+ 	left: 370px;
+ 	font-variant: small-caps;
+}
+
+#issue_date {
+	position: absolute; 
+	top: 146px; 
+	right: 50px;
+	font-variant: small-caps;
+}
+
+#logo {
+	position: absolute; 
+	left: 217px; 
+	top: 54px;
+}
+/* End Header Layout */
+
+/* Primary Content Styles */
+#content_left {
+	padding: 0 20px;
+	padding-top: 160px;
+	padding-bottom: 10px;
+	margin-left: 30px;
+	margin-right: 291px;
+	position: relative;
+}
+
+#content_left h1 {
+	color: #660000;
+	font-size: 20px;
+	font-family: Georgia, serif;
+	margin: 0px;
+	padding: 0px;
+	line-height: 25px;
+}
+
+#content_left h2 {
+	color: #000000;
+	font-size: 12px;
+	margin-top: 0px;
+	font-family: Georgia, serif;
+    font-style: italic;
+}
+
+#content_left h3 {
+	font-size: 12px; 
+	font-weight: bold; 
+	color: #600;
+	margin-bottom: -5px;
+	border-bottom: 2px solid #600;
+}
+
+#content_left p {
+	color: #411806;
+}
+
+#content_left img {
+	border: 1px solid #513922;
+}
+
+.article_block_100 {
+	width: 100%;
+}
+
+.article_block_50 {
+	float: left;
+	width: 48%;
+}
+
+.left {
+	padding-right: 25px;
+}
+
+.left_column {
+	float: left;
+	width: 48%;
+	padding-right: 25px;
+}
+
+.right_column {
+	float: left;
+	width: 48%;
+	margin-top: 20px;
+}
+
+.reporter_box {
+	background: url("../background/reporter_box_bg.jpg") top left no-repeat;
+	height: 47px;
+	width: 287px;
+	min-height: 47px;
+	font-size: 14px;
+	padding-top: 6px;
+	padding-left: 8px;
+	position: relative;
+	font-variant: small-caps
+}
+
+.reported_by {
+	color: #004b75;
+	position: absolute;
+	top: 7px;
+}
+
+.reported_from {
+	color: #333333;
+	position: absolute;
+	bottom: 15px;
+}
+
+.mug_shot {
+	border: 1px solid #6a4f29;
+	height: 34px;
+	width: 34px;
+	float: left;
+}
+
+.article_seperator {
+	padding-left: 5px; 
+	padding-right: 5px; 
+	border: 3px solid #d0a84d;
+}
+
+.inline_image {
+	float: left; 
+	padding-right: 5px; 
+}
+
+#content_left img.inline_image {
+	border: none;
+}
+
+.image_caption { 
+	font-size: 12px; 
+	color: #600;
+}
+/* End Primary Content Styles */
+
+/* Sidebar Styles */
+#sidebar h2 {
+	background: url("../background/sidebar_h1_bg.png") top left no-repeat;
+	height: 26px;
+	font-size: 14px;
+	color: #660000;
+	padding-left: 32px;
+	line-height: 22px;
+}
+
+.item-list ul {
+	color: #004b75;
+	margin-left: -30px;
+	font-size: 12px;
+	font-family: Georgia,serif;
+	list-style-type: none;
+}
+
+.item-list ul li a, .item-list ul li a:visited {
+	color: #004B75;
+	text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+}
+
+.sidebar_top {
+    margin-bottom: 20px;
+}
+
+.sidebar_bottom a {
+    color: #004B75;
+    text-decoration: none;
+    padding-left: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+}
+/* End Sidebar Styles */

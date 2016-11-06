@@ -1,0 +1,49 @@
+.matchups ul 
+{
+	
+	padding: 0;
+}
+
+.matchups li
+{
+	border-collapse: collapse;
+	display: inline-block;
+	text-align: center;
+	font-size: 12px;
+	vertical-align: middle;
+}
+.matchups li:nth-child(2n+1)
+{
+	font-size: 16px;
+	font-variant: small-caps;
+	display: inline-block;
+	width: 125px;
+	text-align: center;
+}
+
+.matchups li:last-child
+{
+	display: inline-block;
+	width: 40px;
+	text-align: center;
+}
+
+.matchups ul
+{
+	margin:0;
+}
+
+.matchups ul:first-child
+{
+	margin-top: 14px;
+}
+
+.matchups ul:last-child
+{
+	margin-bottom: 20px;
+}
+
+.matchups ul:nth-child(2n)
+{
+	background-color: rgba(255, 255, 255, 0.2);
+}
